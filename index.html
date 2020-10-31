@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Linke Chen</title>
+
+<!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/c1b8b18007.js" crossorigin="anonymous"></script>
+
+  <!-- BootStrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- css style -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- icon -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About me
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#Info">Info</a>
+            <a class="dropdown-item" href="#Exper">Experience</a>
+            <a class="dropdown-item" href="#Contact">Contact</a>
+            <a class="dropdown-item" href="#pet">Pet</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>Linke Chen</h1>
+    <h2 class="subtitle">A <span><em>University</em></span> Student</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="linke" src="images/circle-cropped.png" alt="linke-img">
+      <h2 id="Info">Info</h2>
+      <p class="p1">A senior student in KPU and UVIC from China.</p>
+      <p>An owner of an internationl Company.</p>
+    </div>
+
+    <hr>
+
+    <section id="testimonials">
+      <div id="testmonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h3 id="Exper">Study Experience</h3>
+            <p class="testimonial-text">I've studied here for 3 years and in 3 different college before(FIC,CC,AC). In this semester, I've received 2 offers one from UVIC another one from KPU.</p>
+            <img class="linke1"src="images/IMG_3701.jpg" alt="linke1-img">
+          </div>
+          <div class="carousel-item">
+            <h3 id="Exper">Work Experience</h3>
+            <p class="testimonial-text">I've worked in Tencent for web development, when I was just start the university studying.(2018) Although I'm just a senior student , I've setted a international company which is focused on the import and export business between
+              China and Canada.</p>
+            <img class="linke2" src="images/IMG_1447.jpg" alt="linke2-img">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#testmonial-carousel" role="button" data-slide="prev" style="color:powderblue">
+          <span class="press carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only" ></span>
+        </a>
+        <a class="carousel-control-next" href="#testmonial-carousel" role="button" data-slide="next">
+          <span class="press carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+
+
+
+    </section>
+
+    <hr>
+    <!-- card1 -->
+    <h2 id="pet">My Pet</h2>
+    <div class="row">
+      <div class="pricing-colomn col-lg-4 col-md-6">
+        <div class="card">
+          <img src="images/golden.jpeg" alt="">
+          <div class="card-header">
+            <h3 class="card-title">Enzo</h3>
+          </div>
+          <div class="card-body">
+            <p>Type:Golden Retriever</p>
+            <p>Age:8 Months</p>
+            <p>Gender: Male</p>
+          </div>
+        </div>
+      </div>
+      <!-- card2 -->
+      <div class="pricing-colomn col-lg-4 col-md-6">
+        <div class="card">
+          <img src="images/fadou.jpeg" alt="">
+          <div class="card-header">
+            <h3 class="card-title">Lambert</h3>
+          </div>
+          <div class="card-body">
+            <p>Type:French Bulldog</p>
+            <p>Age:6 Months</p>
+            <p>Gender:Female</p>
+          </div>
+        </div>
+      </div>
+      <!-- card3 -->
+      <div class="pricing-colomn col-lg-4 col-md-6">
+        <div class="card">
+          <img src="images/chai.jpeg" alt="">
+          <div class="card-header">
+            <h3 class="card-title">Sakura</h3>
+          </div>
+          <div class="card-body">
+            <p>Type:Shiba Inu</p>
+            <p>Age: 2 years</p>
+            <p>Gender: Male</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="contact-me">
+      <h2 id="Contact">Get In Touch</h2>
+      <h3>Want to Know More?.</h3>
+      <p class="contact-message">I'm so glad to make as many friends as I can, so if you got any questions about the international business , web design or interested at me, text me as soon as possible!</p>
+      <a class="btn" href="Contact.html">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <i class="fab fa-linkedin"></i>
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <i class="fab fa-twitter"></i>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <i class="fab fa-instagram"></i>
+    <a class="footer-link" href="https://www.instagram.com/">Instagram</a>
+    <p class="copy-right">© 2020 Linke Chen</p>
+  </div>
+
+</body>
+
+</html>
